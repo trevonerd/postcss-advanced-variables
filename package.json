@@ -17,7 +17,7 @@
   "scripts": {
     "prepublishOnly": "npm test",
     "pretest": "rollup -c .rollup.js --silent",
-    "test": "echo 'Running tests...'; npm run test:ec && npm run test:js",
+    "test": "echo 'Running tests...'; npm run test:ec && npm run test:js && npm run test:tape",
     "test:ec": "echint --ignore index.bundle.js test",
     "test:js": "eslint *.js --cache --ignore-path .gitignore --quiet",
     "test:tape": "postcss-tape"

@@ -1,7 +1,7 @@
 // tooling
 import transformNode from './lib/transform-node';
 import postcss from 'postcss';
-import resolve from '@csstools/sass-import-resolve';
+import resolve from 'sass-import-resolve-no-scope';
 
 // plugin
 export default postcss.plugin('postcss-advanced-variables', opts => (root, result) => {
