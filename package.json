@@ -1,12 +1,12 @@
 {
-  "name": "postcss-advanced-variables",
+  "name": "postcss-advanced-variables-mod",
   "version": "2.3.3",
   "description": "Use Sass-like variables, conditionals, and iterators in CSS",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
-  "repository": "jonathantneal/postcss-advanced-variables",
-  "homepage": "https://github.com/jonathantneal/postcss-advanced-variables#readme",
-  "bugs": "https://github.com/jonathantneal/postcss-advanced-variables/issues",
+  "repository": "trevonerd/postcss-advanced-variables",
+  "homepage": "https://github.com/trevonerd/postcss-advanced-variables#readme",
+  "bugs": "https://github.com/trevonerd/postcss-advanced-variables/issues",
   "main": "index.bundle.js",
   "module": "index.js",
   "files": [
@@ -26,7 +26,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "@csstools/sass-import-resolve": "^1",
+    "sass-import-resolve-no-scope": "^1",
     "postcss": "^6"
   },
   "devDependencies": {
